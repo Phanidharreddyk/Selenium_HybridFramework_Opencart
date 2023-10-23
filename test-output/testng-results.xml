@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T03:37:21 IST" name="Suite" finished-at="2023-10-24T03:38:44 IST" duration-ms="82974">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T03:37:21 IST" name="Test" finished-at="2023-10-24T03:38:44 IST" duration-ms="82974">
+      <class name="com.opencart.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:29 IST" name="setup" finished-at="2023-10-24T03:38:34 IST" duration-ms="4376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchresultWithValidProduct()[pri:1, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:34 IST" name="verifySearchresultWithValidProduct" finished-at="2023-10-24T03:38:34 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchresultWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:34 IST" name="teardown" finished-at="2023-10-24T03:38:34 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:34 IST" name="setup" finished-at="2023-10-24T03:38:39 IST" duration-ms="4921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchresultWithInValidProduct()[pri:2, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:39 IST" name="verifySearchresultWithInValidProduct" finished-at="2023-10-24T03:38:40 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchresultWithInValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:40 IST" name="teardown" finished-at="2023-10-24T03:38:40 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:40 IST" name="setup" finished-at="2023-10-24T03:38:44 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchresultWithoutData()[pri:3, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:44 IST" name="verifySearchresultWithoutData" finished-at="2023-10-24T03:38:44 IST" depends-on-methods="com.opencart.testcases.SearchTest.verifySearchresultWithInValidProduct" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchresultWithoutData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.SearchTest@7586beff]" started-at="2023-10-24T03:38:44 IST" name="teardown" finished-at="2023-10-24T03:38:44 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.SearchTest -->
+      <class name="com.opencart.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:24 IST" name="beforeLogin" finished-at="2023-10-24T03:37:30 IST" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:30 IST" name="verifyLoginWithValidCredentials" data-provider="logindata" finished-at="2023-10-24T03:37:31 IST" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani21@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:31 IST" name="afterLogin" finished-at="2023-10-24T03:37:32 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:32 IST" name="beforeLogin" finished-at="2023-10-24T03:37:37 IST" duration-ms="4987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:37 IST" name="verifyLoginWithValidCredentials" data-provider="logindata" finished-at="2023-10-24T03:37:37 IST" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:37 IST" name="afterLogin" finished-at="2023-10-24T03:37:38 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:38 IST" name="beforeLogin" finished-at="2023-10-24T03:37:42 IST" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:42 IST" name="verifyLoginWithValidCredentials" data-provider="logindata" finished-at="2023-10-24T03:37:42 IST" duration-ms="842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani23@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:42 IST" name="afterLogin" finished-at="2023-10-24T03:37:43 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:43 IST" name="beforeLogin" finished-at="2023-10-24T03:37:47 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithInValidCredentials()[pri:2, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:47 IST" name="verifyLoginWithInValidCredentials" finished-at="2023-10-24T03:37:48 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:48 IST" name="afterLogin" finished-at="2023-10-24T03:37:48 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:48 IST" name="beforeLogin" finished-at="2023-10-24T03:37:52 IST" duration-ms="3898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithInValidEmail()[pri:3, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:52 IST" name="verifyLoginWithInValidEmail" finished-at="2023-10-24T03:37:53 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidEmail -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:53 IST" name="afterLogin" finished-at="2023-10-24T03:37:53 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:53 IST" name="beforeLogin" finished-at="2023-10-24T03:37:58 IST" duration-ms="4504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithInValidPassword()[pri:4, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:58 IST" name="verifyLoginWithInValidPassword" finished-at="2023-10-24T03:37:59 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidPassword -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:59 IST" name="afterLogin" finished-at="2023-10-24T03:37:59 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:37:59 IST" name="beforeLogin" finished-at="2023-10-24T03:38:04 IST" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyLoginWithoutData()[pri:5, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:38:04 IST" name="verifyLoginWithoutData" finished-at="2023-10-24T03:38:04 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutData -->
+        <test-method is-config="true" signature="afterLogin()[pri:0, instance:com.opencart.testcases.LoginTest@78691363]" started-at="2023-10-24T03:38:04 IST" name="afterLogin" finished-at="2023-10-24T03:38:05 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+      </class> <!-- com.opencart.testcases.LoginTest -->
+      <class name="com.opencart.testcases.RegisterTest">
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:05 IST" name="beforeLogin" finished-at="2023-10-24T03:38:10 IST" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyRegistrationWithMandatoryFields()[pri:1, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:10 IST" name="verifyRegistrationWithMandatoryFields" finished-at="2023-10-24T03:38:11 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:11 IST" name="teardown" finished-at="2023-10-24T03:38:11 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:11 IST" name="beforeLogin" finished-at="2023-10-24T03:38:16 IST" duration-ms="4895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyRegistrationWithAllFields()[pri:2, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:16 IST" name="verifyRegistrationWithAllFields" finished-at="2023-10-24T03:38:18 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithAllFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:18 IST" name="teardown" finished-at="2023-10-24T03:38:18 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:18 IST" name="beforeLogin" finished-at="2023-10-24T03:38:22 IST" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyRegistrationWithExistingEmail()[pri:3, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:22 IST" name="verifyRegistrationWithExistingEmail" finished-at="2023-10-24T03:38:24 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithExistingEmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:24 IST" name="teardown" finished-at="2023-10-24T03:38:24 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:24 IST" name="beforeLogin" finished-at="2023-10-24T03:38:28 IST" duration-ms="4365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="verifyRegistrationWithoutFillingAnyDetails()[pri:4, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:28 IST" name="verifyRegistrationWithoutFillingAnyDetails" finished-at="2023-10-24T03:38:29 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.testcases.RegisterTest@5b12b668]" started-at="2023-10-24T03:38:29 IST" name="teardown" finished-at="2023-10-24T03:38:29 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.testcases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
