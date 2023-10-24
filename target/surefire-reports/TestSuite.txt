@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 36, Failures: 2, Errors: 0, Skipped: 31, Time elapsed: 56.63 s <<< FAILURE! -- in TestSuite
-com.opencart.testcases.LoginTest.beforeLogin -- Time elapsed: 24.72 s <<< FAILURE!
+Tests run: 36, Failures: 2, Errors: 0, Skipped: 31, Time elapsed: 56.62 s <<< FAILURE! -- in TestSuite
+com.opencart.testcases.LoginTest.beforeLogin -- Time elapsed: 18.90 s <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=118.0.5993.89)
 Build info: version: '4.14.0', revision: 'e5a96349ce'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85c5ec4e445cb16e8086b00ac05b67bc, clickElement {id=AE200DAB7A88362A9466041A98D56F02_element_36}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59203/devtoo..., se:cdpVersion: 118.0.5993.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (85c5ec4e445cb16e8086b00ac05b67bc)] -> xpath: //span[normalize-space()='My Account']]
-Session ID: 85c5ec4e445cb16e8086b00ac05b67bc
+Command: [c87c1719ebfd7dd311a489b2b6aa0c9d, clickElement {id=4E78ADBC5A7FFA8B04BD376E9809D015_element_36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62064/devtoo..., se:cdpVersion: 118.0.5993.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c87c1719ebfd7dd311a489b2b6aa0c9d)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: c87c1719ebfd7dd311a489b2b6aa0c9d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,17 +72,17 @@ Session ID: 85c5ec4e445cb16e8086b00ac05b67bc
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.opencart.testcases.RegisterTest.beforeLogin -- Time elapsed: 13.81 s <<< FAILURE!
+com.opencart.testcases.RegisterTest.beforeLogin -- Time elapsed: 14.62 s <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=118.0.5993.89)
 Build info: version: '4.14.0', revision: 'e5a96349ce'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5000035de3bf074db1f8e68f07730980, clickElement {id=FC6B9578A710A7CB6B21A0E895290FE3_element_36}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59231/devtoo..., se:cdpVersion: 118.0.5993.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5000035de3bf074db1f8e68f07730980)] -> xpath: //span[normalize-space()='My Account']]
-Session ID: 5000035de3bf074db1f8e68f07730980
+Command: [95f6df1bf7af2617f28155fdaeed7fcc, clickElement {id=A710BC4FE5939F9CC47BEA264E548305_element_36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62093/devtoo..., se:cdpVersion: 118.0.5993.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (95f6df1bf7af2617f28155fdaeed7fcc)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 95f6df1bf7af2617f28155fdaeed7fcc
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
