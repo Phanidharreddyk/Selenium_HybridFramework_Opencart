@@ -33,8 +33,7 @@ public class RegisterTest extends BaseClass {
 
 		driver = initializeBrowser(prop.getProperty("browser"));
 		HomePage homepage = new HomePage(driver);
-		homepage.clickOnMyAccount();
-		regpage = homepage.clickOnRegister();
+		regpage = homepage.navigateToRegisterPage();
 	}
 
 	@AfterMethod

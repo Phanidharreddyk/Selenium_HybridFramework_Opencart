@@ -34,8 +34,7 @@ public class LoginTest extends BaseClass {
 
 		driver = initializeBrowser(prop.getProperty("browser"));
 		HomePage homepage = new HomePage(driver);
-		homepage.clickOnMyAccount();
-		loginpage = homepage.clickOnLogin();
+		loginpage = homepage.navigateToLoginPage();
 	}
 
 	@AfterMethod
