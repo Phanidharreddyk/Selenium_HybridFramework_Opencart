@@ -21,6 +21,7 @@ public class AccountPage {
 	
 	public boolean verifyEditAccountInfo() {
 		return Edit_your_account_information.isDisplayed();
+		
 	}
 	
 	
