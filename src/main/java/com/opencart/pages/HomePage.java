@@ -14,7 +14,7 @@ public class HomePage {
 
 	public WebDriver driver;
 
-	@FindBy(xpath = "//span[text()='My Account']")
+	@FindBy(css = "#top-links > ul > li.dropdown > a")
 	private WebElement myAccountDropMenu;
 
 	@FindBy(linkText = "Login")
