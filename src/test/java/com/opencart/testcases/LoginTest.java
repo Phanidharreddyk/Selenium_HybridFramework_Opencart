@@ -30,10 +30,11 @@ public class LoginTest extends BaseClass {
 	}
 
 	@BeforeMethod
-	public void beforeLogin() {
+	public void beforeLogin() throws InterruptedException {
 
 		driver = initializeBrowser(prop.getProperty("browser"));
 		HomePage homepage = new HomePage(driver);
+		Thread.sleep(200);
 		homepage.clickOnMyAccount();
 		loginpage = homepage.clickOnLogin();
 	}

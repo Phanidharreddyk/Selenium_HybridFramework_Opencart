@@ -6,21 +6,27 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.opencart.testcases.SearchTest">
-        <methods>
-          <include name="verifySearchresultWithInValidProduct"/>
-          <include name="setup"/>
-          <include name="verifySearchresultWithoutData"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.opencart.testcases.SearchTest -->
       <class name="com.opencart.testcases.RegisterTest">
         <methods>
           <include name="teardown"/>
+          <include name="verifyRegistrationWithAllFields"/>
           <include name="beforeLogin"/>
+          <include name="verifyRegistrationWithoutFillingAnyDetails"/>
+          <include name="verifyRegistrationWithMandatoryFields"/>
           <include name="verifyRegistrationWithExistingEmail"/>
         </methods>
       </class> <!-- com.opencart.testcases.RegisterTest -->
+      <class name="com.opencart.testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginWithoutData"/>
+          <include name="afterLogin"/>
+          <include name="verifyLoginWithInValidCredentials"/>
+          <include name="verifyLoginWithInValidEmail"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithInValidPassword"/>
+          <include name="beforeLogin"/>
+        </methods>
+      </class> <!-- com.opencart.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
