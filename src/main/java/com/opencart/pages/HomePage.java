@@ -9,7 +9,7 @@ public class HomePage {
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath = "//span[normalize-space()='My Account']")
+	@FindBy(xpath = "//span[text()='My Account']")
 	private WebElement myAccountDropMenu;
 	
 	@FindBy(linkText = "Login")
